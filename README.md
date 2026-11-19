@@ -16,7 +16,7 @@ Un **espace** est un document Grist complet — tables, formules, pages, widgets
 | Page | Outil | Contenu |
 | --- | --- | --- |
 | **Réunions** | [grist-reunion](https://github.com/lab17bis/grist-reunion) | Ordre du jour, séance, compte rendu, suivi des actions. Tables `Reunions`, `Points`, `Decisions`, `Actions_reunion`. |
-| **Projets** | [grist-projet](https://github.com/lab17bis/grist-projet) | Banque de projets, fiches projet, plans d'action, journal et règles d'accès. |
+| **Projets** | [grist-projet](https://github.com/lab17bis/grist-projet) | Banque de projets, plans d'action avec sous-actions, jalons et dépendances (liste, kanban, chronologie), journal, rôle « Administration » et règles d'accès. |
 | **Ressources communes** | [grist-catalogue](https://github.com/lab17bis/grist-catalogue) | Catalogue des ressources de l'équipe. Page *Fiches* pour ajouter une ressource, page *Régler les ressources* pour le modifier. Table `Ressources`. |
 
 ## L'installer en 2 minutes
