@@ -1,0 +1,72 @@
+# espace-collaboratif
+
+> **Espace Grist clé en main.** Un document Grist prêt à l'emploi pour **travailler ensemble** : les réunions de l'équipe, ses projets partagés et ses ressources communes, au Système de design de l'État (DSFR).
+
+Un **espace** est un document Grist complet — tables, formules, pages, widgets et réglages — à importer en une fois. Il assemble des widgets de la famille `grist-…` autour d'une manière de travailler. Chaque widget reste utilisable seul.
+
+## À quoi ça sert
+
+- **Préparer et tenir les réunions** : chacun propose des points, les notes, décisions et actions sont prises en séance, le compte rendu se met en page tout seul.
+- **Partager les projets** de l'équipe ou de plusieurs services, avec leurs porteurs, leur plan d'action et leur journal.
+- **Mettre en commun des ressources** (outils, méthodes, conseils, modèles) dans un catalogue consultable et filtrable.
+- Les actions décidées en réunion et les actions des projets restent chacune dans leur outil, sans double saisie.
+
+## Ce que contient l'espace
+
+| Page | Outil | Contenu |
+| --- | --- | --- |
+| **Réunions** | [grist-reunion](https://github.com/lab17bis/grist-reunion) | Ordre du jour, séance, compte rendu, suivi des actions. Tables `Reunions`, `Points`, `Decisions`, `Actions_reunion`. |
+| **Projets** | [grist-projet](https://github.com/lab17bis/grist-projet) | Banque de projets, fiches projet, plans d'action, journal et règles d'accès. |
+| **Ressources communes** | [grist-catalogue](https://github.com/lab17bis/grist-catalogue) | Catalogue des ressources de l'équipe. Page *Fiches* pour ajouter une ressource, page *Régler les ressources* pour le modifier. Table `Ressources`. |
+
+## L'installer en 2 minutes
+
+1. **Télécharger** le fichier de l'espace :
+   - [`espace-collaboratif.grist`](https://github.com/lab17bis/espace-collaboratif/raw/main/espace-collaboratif.grist) : l'espace vide, prêt à l'usage ;
+   - [`espace-collaboratif-exemple.grist`](https://github.com/lab17bis/espace-collaboratif/raw/main/espace-collaboratif-exemple.grist) : le même, rempli de données fictives, pour essayer.
+2. **L'importer dans Grist** : depuis l'accueil de votre espace Grist, *Ajouter › Importer un document*, puis choisissez le fichier.
+3. **L'ouvrir** : les pages et les widgets sont déjà en place. Si Grist le demande, confirmez l'accès complet des widgets au document.
+4. **Inviter l'équipe** (*Partager*), en éditeur pour celles et ceux qui saisissent.
+
+Vous êtes propriétaire du document importé. Rien n'est installé ailleurs : les widgets sont des pages web publiques, qui lisent et écrivent dans votre document avec les droits de la personne connectée.
+
+## Le régler
+
+- **Réunions** : lien *Réglages* en bas du widget.
+- **Projets** : lien *Réglages du suivi*.
+- **Ressources communes** : page *Régler les ressources* (sections, filtres, étiquettes, contenu des fiches). Ajoutez ou renommez les colonnes de la table `Ressources` selon vos besoins.
+
+Les réglages sont enregistrés dans le document. Les widgets partagent aussi les mêmes réglages d'en-tête et de pied de page.
+
+## Données et droits d'accès
+
+L'espace contient les **règles d'accès** de grist-projet, qui protègent les projets restreints. Elles ne concernent que les tables de projets. Vérifiez-les dans *Permissions avancées* avant d'inviter l'équipe.
+
+Les fichiers de ce dépôt ne contiennent aucune donnée réelle. L'exemple est entièrement fictif.
+
+## Widgets utilisés
+
+- [grist-catalogue](https://github.com/lab17bis/grist-catalogue) : catalogue de fiches au DSFR, avec recherche et filtres.
+- [grist-projet](https://github.com/lab17bis/grist-projet) : banque de projets partagée et plans d'action.
+- [grist-reunion](https://github.com/lab17bis/grist-reunion) : ordres du jour, notes, décisions, actions et comptes rendus.
+
+## Autres espaces
+
+- [espace-pilotage](https://github.com/lab17bis/espace-pilotage) : regarder et décider : un écran d'équipe qui rassemble indicateurs, réunions, projets et management visuel.
+- [espace-accompagnement](https://github.com/lab17bis/espace-accompagnement) : suivre les personnes qui sollicitent un service : offre de service, sollicitations, fiches contact et satisfaction.
+- [espace-sondage](https://github.com/lab17bis/espace-sondage) : concevoir un questionnaire, savoir qui a répondu et lire les résultats en indicateurs.
+
+## Écosystème
+
+- **[Grist](https://grist.numerique.gouv.fr)** : tableur-base de données libre ([gristlabs/grist-core](https://github.com/gristlabs/grist-core)), proposé aux agents publics par la [DINUM](https://www.numerique.gouv.fr/) dans [La Suite numérique](https://lasuite.numerique.gouv.fr/). L'espace s'importe dans toute instance de Grist.
+- **[Système de design de l'État (DSFR)](https://www.systeme-de-design.gouv.fr/)** ([GouvernementFR/dsfr](https://github.com/GouvernementFR/dsfr)). Son usage est réservé aux sites des services de l'État.
+
+## Mots-clés
+
+Grist, espace Grist, modèle Grist, document clé en main, travail collaboratif, équipe, réunion, ordre du jour, compte rendu, gestion de projet, ressources partagées, catalogue, DSFR, Système de design de l'État, La Suite numérique, service public, logiciel libre.
+
+## Licence
+
+Fichiers de l'espace et documentation sous licence Creative Commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr) : réutilisation et adaptation autorisées, en citant la source et en partageant sous la même licence. Le code des widgets est sous licence MIT, dans leurs dépôts.
+
+Conçu par le Lab 17 bis, laboratoire d'innovation publique de l'académie de Reims. Contact : <lab17bis@ac-reims.fr>
