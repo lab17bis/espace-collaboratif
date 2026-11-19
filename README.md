@@ -16,7 +16,7 @@ Un **espace** est un document Grist complet — tables, formules, pages, widgets
 | Page | Outil | Contenu |
 | --- | --- | --- |
 | **Réunions** | [grist-reunion](https://github.com/lab17bis/grist-reunion) | Ordre du jour, séance, compte rendu, suivi des actions. Tables `Reunions`, `Points`, `Decisions`, `Actions_reunion`. |
-| **Projets** | [grist-projet](https://github.com/lab17bis/grist-projet) | Banque de projets, plans d'action avec sous-actions, jalons et dépendances (liste, kanban, chronologie), journal, rôle « Administration » et règles d'accès. |
+| **Projets** | [grist-projet](https://github.com/lab17bis/grist-projet) | Banque de projets, fiches projet, plans d'action, journal et règles d'accès. |
 | **Ressources communes** | [grist-catalogue](https://github.com/lab17bis/grist-catalogue) | Catalogue des ressources de l'équipe. Page *Fiches* pour ajouter une ressource, page *Régler les ressources* pour le modifier. Table `Ressources`. |
 
 ## L'installer en 2 minutes
@@ -38,7 +38,7 @@ Les widgets sont chargés depuis leur **adresse stable** (`…/v1/`) : une évol
 - **Projets** : lien *Réglages du suivi*.
 - **Ressources communes** : page *Régler les ressources* (sections, filtres, étiquettes, contenu des fiches). Ajoutez ou renommez les colonnes de la table `Ressources` selon vos besoins.
 
-Les réglages sont enregistrés dans le document. Les widgets partagent aussi les mêmes réglages d'en-tête et de pied de page.
+Les réglages sont enregistrés dans le document. Ils partagent les mêmes réglages d'en-tête et de pied de page.
 
 ## Données et droits d'accès
 
@@ -59,7 +59,8 @@ Les fichiers de ce dépôt ne contiennent aucune donnée réelle. L'exemple est 
 - [espace-pilotage](https://github.com/lab17bis/espace-pilotage) : regarder et décider : un écran d'équipe qui rassemble indicateurs, réunions, projets et management visuel.
 - [espace-accompagnement](https://github.com/lab17bis/espace-accompagnement) : suivre les personnes qui sollicitent un service : offre de service, sollicitations, fiches contact et satisfaction.
 - [espace-sondage](https://github.com/lab17bis/espace-sondage) : concevoir un questionnaire, savoir qui a répondu et lire les résultats en indicateurs.
-- [espace-reseau](https://github.com/lab17bis/espace-reseau) : animer un réseau ou une communauté de pratique : membres, groupes, rencontres, présences, ressources partagées et retours.
+- [espace-reseau](https://github.com/lab17bis/espace-reseau) : animer un réseau ou une communauté de pratique : membres, groupes, rencontres, présences, ressources partagées, retours, carte et liens entre acteurs.
+- [espace-contributions](https://github.com/lab17bis/espace-contributions) : faire participer : boîte à idées, valorisation des réalisations des équipes, votes et suites données.
 
 ## Écosystème
 
