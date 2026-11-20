@@ -9,6 +9,7 @@ Un **espace** est un document Grist complet — tables, formules, pages, widgets
 - **Préparer et tenir les réunions** : chacun propose des points, les notes, décisions et actions sont prises en séance, le compte rendu se met en page tout seul.
 - **Partager les projets** de l'équipe ou de plusieurs services, avec leurs porteurs, leur plan d'action et leur journal.
 - **Mettre en commun des ressources** (outils, méthodes, conseils, modèles) dans un catalogue consultable et filtrable.
+- **Décider ensemble** : une boîte à idées d'équipe avec soutiens et suites données, et des choix collectifs (créneau, outil, option) en choix unique ou en notation.
 - Les actions décidées en réunion et les actions des projets restent chacune dans leur outil, sans double saisie.
 
 ## Ce que contient l'espace
@@ -17,6 +18,7 @@ Un **espace** est un document Grist complet — tables, formules, pages, widgets
 | --- | --- | --- |
 | **Réunions** | [grist-reunion](https://github.com/lab17bis/grist-reunion) | Ordre du jour, séance, compte rendu, suivi des actions. Tables `Reunions`, `Points`, `Decisions`, `Actions_reunion`. |
 | **Projets** | [grist-projet](https://github.com/lab17bis/grist-projet) | Banque de projets, fiches projet, plans d'action, journal et règles d'accès. |
+| **Décider ensemble** | [grist-decision](https://github.com/lab17bis/grist-decision) | Boîte à idées de l'équipe et choix collectifs, avec résultats et suites données. Tables `Consultations`, `Propositions`, `Criteres`, `Votes`, `Votants`. |
 | **Ressources communes** | [grist-catalogue](https://github.com/lab17bis/grist-catalogue) | Catalogue des ressources de l'équipe. Page *Fiches* pour ajouter une ressource, page *Régler les ressources* pour le modifier. Table `Ressources`. |
 
 ## L'installer en 2 minutes
@@ -36,13 +38,14 @@ Les widgets sont chargés depuis leur **adresse stable** (`…/v1/`) : une évol
 
 - **Réunions** : lien *Réglages* en bas du widget.
 - **Projets** : lien *Réglages du suivi*.
+- **Décider ensemble** : bouton *Nouvelle consultation*, puis onglet *Gérer* de chaque consultation.
 - **Ressources communes** : page *Régler les ressources* (sections, filtres, étiquettes, contenu des fiches). Ajoutez ou renommez les colonnes de la table `Ressources` selon vos besoins.
 
 Les réglages sont enregistrés dans le document. Ils partagent les mêmes réglages d'en-tête et de pied de page.
 
 ## Données et droits d'accès
 
-L'espace contient les **règles d'accès** de grist-projet, qui protègent les projets restreints. Elles ne concernent que les tables de projets. Vérifiez-les dans *Permissions avancées* avant d'inviter l'équipe.
+Les votes de la page *Décider ensemble* portent l'adresse de leur auteur, visible des propriétaires dans la table `Votes`. L'espace contient aussi les **règles d'accès** de grist-projet, qui protègent les projets restreints. Elles ne concernent que les tables de projets. Vérifiez-les dans *Permissions avancées* avant d'inviter l'équipe.
 
 Les tables `Personnes` et `Structures`, quand l'espace en contient, suivent la règle commune des widgets : un widget de la famille ajouté plus tard les reprend et les complète, au lieu d'en créer d'autres.
 
@@ -53,10 +56,11 @@ Les fichiers de ce dépôt ne contiennent aucune donnée réelle. L'exemple est 
 - [grist-catalogue](https://github.com/lab17bis/grist-catalogue) : catalogue de fiches au DSFR, avec recherche et filtres.
 - [grist-projet](https://github.com/lab17bis/grist-projet) : banque de projets partagée et plans d'action.
 - [grist-reunion](https://github.com/lab17bis/grist-reunion) : ordres du jour, notes, décisions, actions et comptes rendus.
+- [grist-decision](https://github.com/lab17bis/grist-decision) : consultations : boîte à idées, valorisation des réalisations, votes et suites données.
 
 ## Autres espaces
 
-- [espace-pilotage](https://github.com/lab17bis/espace-pilotage) : regarder et décider : un écran d'équipe qui rassemble indicateurs, réunions, projets et management visuel.
+- [espace-pilotage](https://github.com/lab17bis/espace-pilotage) : regarder et décider : un écran d'équipe qui rassemble indicateurs, réunions, projets, priorités et parties prenantes.
 - [espace-accompagnement](https://github.com/lab17bis/espace-accompagnement) : suivre les personnes qui sollicitent un service : offre de service, sollicitations, fiches contact et satisfaction.
 - [espace-sondage](https://github.com/lab17bis/espace-sondage) : concevoir un questionnaire, savoir qui a répondu et lire les résultats en indicateurs.
 - [espace-reseau](https://github.com/lab17bis/espace-reseau) : animer un réseau ou une communauté de pratique : membres, groupes, rencontres, présences, ressources partagées, retours, carte et liens entre acteurs.
@@ -69,7 +73,7 @@ Les fichiers de ce dépôt ne contiennent aucune donnée réelle. L'exemple est 
 
 ## Mots-clés
 
-Grist, espace Grist, modèle Grist, document clé en main, travail collaboratif, équipe, réunion, ordre du jour, compte rendu, gestion de projet, ressources partagées, catalogue, DSFR, Système de design de l'État, La Suite numérique, service public, logiciel libre.
+Grist, espace Grist, modèle Grist, document clé en main, travail collaboratif, équipe, réunion, ordre du jour, compte rendu, gestion de projet, ressources partagées, catalogue, boîte à idées, décision collective, DSFR, Système de design de l'État, La Suite numérique, service public, logiciel libre.
 
 ## Licence
 
