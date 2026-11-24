@@ -18,7 +18,7 @@ Un **espace** est un document Grist complet — tables, formules, pages, widgets
 | --- | --- | --- |
 | **Réunions** | [grist-reunion](https://github.com/lab17bis/grist-reunion) | Ordre du jour, séance, compte rendu, suivi des actions. Tables `Reunions`, `Points`, `Decisions`, `Actions_reunion`. |
 | **Projets** | [grist-projet](https://github.com/lab17bis/grist-projet) | Banque de projets, fiches projet, plans d'action, journal et règles d'accès. |
-| **Décider ensemble** | [grist-decision](https://github.com/lab17bis/grist-decision) | Boîte à idées de l'équipe et choix collectifs, avec résultats et suites données. Tables `Consultations`, `Propositions`, `Criteres`, `Votes`, `Votants`. |
+| **Décider ensemble** | [grist-consultation](https://github.com/lab17bis/grist-consultation) | Boîte à idées de l'équipe et choix collectifs, avec résultats et suites données. Tables `Consultations`, `Propositions`, `Criteres`, `Votes`, `Votants`. |
 | **Ressources communes** | [grist-catalogue](https://github.com/lab17bis/grist-catalogue) | Catalogue des ressources de l'équipe. Page *Fiches* pour ajouter une ressource, page *Régler les ressources* pour le modifier. Table `Ressources`. |
 
 ## L'installer en 2 minutes
@@ -56,7 +56,7 @@ Les fichiers de ce dépôt ne contiennent aucune donnée réelle. L'exemple est 
 - [grist-catalogue](https://github.com/lab17bis/grist-catalogue) : catalogue de fiches au DSFR, avec recherche et filtres.
 - [grist-projet](https://github.com/lab17bis/grist-projet) : banque de projets partagée et plans d'action.
 - [grist-reunion](https://github.com/lab17bis/grist-reunion) : ordres du jour, notes, décisions, actions et comptes rendus.
-- [grist-decision](https://github.com/lab17bis/grist-decision) : consultations : boîte à idées, valorisation des réalisations, votes et suites données.
+- [grist-consultation](https://github.com/lab17bis/grist-consultation) : consultations : boîte à idées, valorisation des réalisations, votes et suites données.
 
 ## Autres espaces
 
