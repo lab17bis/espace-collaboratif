@@ -19,6 +19,7 @@ Un **espace** est un document Grist complet — tables, formules, pages, widgets
 | **Réunions** | [grist-reunion](https://github.com/lab17bis/grist-reunion) | Ordre du jour, séance, compte rendu, suivi des actions. Tables `Reunions`, `Points`, `Decisions`, `Actions_reunion`. |
 | **Projets** | [grist-projet](https://github.com/lab17bis/grist-projet) | Banque de projets, fiches projet, plans d'action, journal et règles d'accès. |
 | **Décider ensemble** | [grist-consultation](https://github.com/lab17bis/grist-consultation) | Boîte à idées de l'équipe et choix collectifs, avec résultats et suites données. Tables `Consultations`, `Propositions`, `Criteres`, `Votes`, `Votants`. |
+| **Annuaire** | [grist-annuaire](https://github.com/lab17bis/grist-annuaire) | Personnes et structures du document : recherche, fiches, structures en arborescence, doublons et fusion, import CSV, archivage. Tables `Personnes`, `Structures` et `Comptes`, partagées avec les autres outils de l'espace. |
 | **Ressources communes** | [grist-catalogue](https://github.com/lab17bis/grist-catalogue) | Catalogue des ressources de l'équipe. Page *Fiches* pour ajouter une ressource, page *Régler les ressources* pour le modifier. Table `Ressources`. |
 
 ## L'installer en 2 minutes
@@ -36,6 +37,7 @@ Les widgets sont chargés depuis leur **adresse stable** (`…/v1/`) : une évol
 
 ## Le régler
 
+- **Annuaire** : onglet *Réglages* du widget (champs prévus et personnalisés, types de structures, délai de conservation, mention d'information, règles d'accès). Cochez *Gestionnaire de l'annuaire* sur la fiche des personnes qui tiennent l'annuaire.
 - **Réunions** : lien *Réglages* en bas du widget.
 - **Projets** : lien *Réglages du suivi*.
 - **Décider ensemble** : bouton *Nouvelle consultation*, puis onglet *Gérer* de chaque consultation.
@@ -45,7 +47,7 @@ Les réglages sont enregistrés dans le document. Ils partagent les mêmes régl
 
 ## Données et droits d'accès
 
-Les votes de la page *Décider ensemble* portent l'adresse de leur auteur, visible des propriétaires dans la table `Votes`. L'espace contient aussi les **règles d'accès** de grist-projet, qui protègent les projets restreints. Elles ne concernent que les tables de projets. Vérifiez-les dans *Permissions avancées* avant d'inviter l'équipe.
+Les votes de la page *Décider ensemble* portent l'adresse de leur auteur, visible des propriétaires dans la table `Votes`. L'espace contient aussi les **règles d'accès** de grist-projet, qui protègent les projets restreints. Elles ne concernent que les tables de projets. L'annuaire y ajoute le rôle *gestionnaire de l'annuaire* (fiches modifiables sans être propriétaire) et empêche un visiteur anonyme de lire les personnes. Vérifiez les règles dans *Permissions avancées* avant d'inviter l'équipe.
 
 Les tables `Personnes` et `Structures`, quand l'espace en contient, suivent la règle commune des widgets : un widget de la famille ajouté plus tard les reprend et les complète, au lieu d'en créer d'autres.
 
@@ -55,6 +57,7 @@ Les fichiers de ce dépôt ne contiennent aucune donnée réelle. L'exemple est 
 
 - [grist-catalogue](https://github.com/lab17bis/grist-catalogue) : catalogue de fiches au DSFR, avec recherche et filtres.
 - [grist-projet](https://github.com/lab17bis/grist-projet) : banque de projets partagée et plans d'action.
+- [grist-annuaire](https://github.com/lab17bis/grist-annuaire) : annuaire des personnes et des structures d'un document : recherche, fiches, doublons, import, protection des données.
 - [grist-reunion](https://github.com/lab17bis/grist-reunion) : ordres du jour, notes, décisions, actions et comptes rendus.
 - [grist-consultation](https://github.com/lab17bis/grist-consultation) : consultations : boîte à idées, valorisation des réalisations, votes et suites données.
 
