@@ -2,6 +2,10 @@
 
 Les fichiers publiés ne sont jamais retirés : chaque version ajoute ou corrige, sans casser l'existant.
 
+
+## 2026-11-28 (document public)
+- Sécurité : si le document est rendu public (page publique d'un outil), un visiteur sans compte ne lit plus, par l'API de Grist, les adresses des personnes, ni les actions, le journal et les documents des projets. Règles d'accès ajoutées aux deux fichiers `.grist`, en tête des règles de chaque table.
+- Même règle que dans espace-communaute pour les ressources non publiées du catalogue.
 ## 2026-11-28 (noms des éditeurs)
 - Les pages de réglage s'appellent désormais « Éditeur des indicateurs », « Éditeur des ressources », « Éditeur de l'offre de service », « Éditeur du questionnaire » (au lieu de « Régler … » et « Concevoir le questionnaire »), et chaque vue de configuration a pour titre « Éditeur du widget ». Fichiers .grist (vide et exemple) et README mis à jour ; aucune table ni aucun réglage ne change.
 
